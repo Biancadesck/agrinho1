@@ -1,0 +1,166 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header h2 {
+    color: #fadb14;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
+
+.container {
+    padding: 2rem 1rem;
+    max-width: 960px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #1b7f4b;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+/* Navegação */
+nav {
+    background-color: #1b7f4b;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.1rem;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #145f38;
+    color: #fadb14;
+}
+
+/* Botões e interações */
+.button {
+    background-color: #1b7f4b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #145f38;
+}
+
+/* Barra de pesquisa */
+.search-bar {
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.search-bar input {
+    max-width: 600px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #1b7f4b;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+    box-shadow: 0 0 5px #1b7f4b;
+    outline: none;
+}
+
+/* Destaque de resultado */
+.highlight {
+    background-color: yellow;
+    padding: 0 4px;
+    border-radius: 3px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.75rem;
+    }
+}
